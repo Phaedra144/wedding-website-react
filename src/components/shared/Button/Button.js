@@ -11,4 +11,4 @@ const Button = ({ large = false, onClick, children }) => (
   </button>
 )
 
-export default Button
+export default Button;

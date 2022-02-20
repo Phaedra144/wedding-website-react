@@ -58,7 +58,7 @@ const FormsSection = ({ forms, id }) => {
                 className={styles.formModalIframe}
                 title={title}
                 src={url}
-                width="640"
+                width="840"
                 frameBorder="0"
                 marginHeight="0"
                 marginWidth="0"

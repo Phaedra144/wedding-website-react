@@ -1,8 +1,8 @@
 ﻿{
   "header": {
     "title": "Wedding",
-    "names": ["Alice", "Bob"],
-    "date": "2030-10-05T14:00:00+02:00",
+    "names": ["Szilvi", "Viktor"],
+    "date": "2022-07-22T14:30:00+01:00",
     "dateFormat": {
       "year": "numeric",
       "month": "long",
