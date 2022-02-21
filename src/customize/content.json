@@ -25,6 +25,13 @@
   },
   "sections": [
     {
+      "id": "invitation",
+      "type": "ImageSection",
+      "inNavbar": true,
+      "title": "Invitation",
+      "text": "### Dear Family and Friends\n as we are making a brave move and decided to exchange vows and join in marriage in the presence of our loved ones, \n #### we joyfully request the pleasure of your company \n ### Wedding Ceremony \n Friday, July 22 at 5:00 in the evening \n ### \n Tamás Tanya, Csemő, Szélmalom dűlő 2, 2713 \n ### Dinner and Reception \n Friday, July 22 at 7:00 in the evening \n ### Arrival \n You can arrive to the venue from 2:30 in the afternoon"
+    },
+    {
       "id": "ourStory",
       "type": "TimelineSection",
       "inNavbar": true,
@@ -53,16 +60,9 @@
       "id": "hashtag",
       "type": "InstagramWallSection",
       "inNavbar": true,
-      "title": "#OurWedding",
+      "title": "OurWedding",
       "text": "Follow the hashtag [#OurWedding](https://www.instagram.com/explore/tags/ourwedding/). Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "wallUrl": "https://walls.io/r3jeq?nobackground=1&show_header=0&columns=5"
-    },
-    {
-      "id": "info",
-      "type": "Section",
-      "inNavbar": true,
-      "title": "Info",
-      "text": "### Wedding Ceremony\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n### Wedding Party\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n### Speeches\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n* Toastmaster, [toastmaster@gmail.com](mailto:toastmaster@gmail.com), 07X-XXX XX XX\n* Toastmadame, [toastmadame@gmail.com](mailto:toastmadame@gmail.com), 07X-XXX XX XX\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.\n### Bus\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
     },
     {
       "id": "map",
@@ -183,7 +183,7 @@
           "newWindow": true
         }
       ],
-      "startDate": "2030-10-05T14:00:00+02:00"
+      "startDate": "2021-07-30T14:00:00+02:00"
     },
     {
       "id": "contact",
