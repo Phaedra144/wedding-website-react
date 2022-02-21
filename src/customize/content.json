@@ -64,12 +64,49 @@
       ]
     },
     {
-      "id": "hashtag",
-      "type": "InstagramWallSection",
+      "id": "engagement photos",
+      "type": "ImageGridSection",
       "inNavbar": true,
-      "title": "OurWedding",
-      "text": "Follow the hashtag [#OurWedding](https://www.instagram.com/explore/tags/ourwedding/). Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "wallUrl": "https://walls.io/r3jeq?nobackground=1&show_header=0&columns=5"
+      "title": "Engagement Photos",
+      "text": "Below you can find some of our favourite of the engagement photos.",
+      "images": [
+        {
+          "src": "../images/Szilvi&Viktor-98.JPG",
+          "caption": "Engagement1"
+        },
+        {
+          "src": "../images/Szilvi&Viktor-38.JPG",
+          "caption": "Engagement2"
+        },
+        {
+          "src": "../images/Szilvi&Viktor-92.JPG",
+          "caption": "Engagement3"
+        },
+        {
+          "src": "../images/Szilvi&Viktor-131.JPG",
+          "caption": "Engagement4"
+        },
+        {
+          "src": "../images/Szilvi&Viktor-24.JPG",
+          "caption": "Engagement4"
+        },
+        {
+          "src": "../images/Szilvi&Viktor-140.JPG",
+          "caption": "Engagement6"
+        },
+        {
+          "src": "../images/Szilvi&Viktor-73.JPG",
+          "caption": "Engagement7"
+        },
+        {
+          "src": "../images/Szilvi&Viktor-67.JPG",
+          "caption": "Engagement7"
+        },
+        {
+          "src": "../images/Szilvi&Viktor-34.JPG",
+          "caption": "Engagement8"
+        }
+      ]
     },
     {
       "id": "map",
@@ -191,6 +228,14 @@
         }
       ],
       "startDate": "2021-07-30T14:00:00+02:00"
+    },
+    {
+      "id": "hashtag",
+      "type": "InstagramWallSection",
+      "inNavbar": true,
+      "title": "OurWedding",
+      "text": "Follow the hashtag [#OurWedding](https://www.instagram.com/explore/tags/ourwedding/). Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+      "wallUrl": "https://walls.io/r3jeq?nobackground=1&show_header=0&columns=5"
     },
     {
       "id": "contact",
