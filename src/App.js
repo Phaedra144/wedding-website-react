@@ -46,7 +46,7 @@ const App = () => {
   })
 
   const navItems = sections
-    .filter((section) => !!section.inNavbar)
+    .filter((section) => section.inNavbar)
     .map((section) => ({
       id: section.id,
       title: section.title,

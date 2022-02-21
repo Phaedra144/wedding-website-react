@@ -53,6 +53,9 @@ const Navbar = ({ items = [] }) => {
           <i className="icon icon-hearts" />
         </div>
         <div className={`${styles.navContent} d-none d-lg-flex`}>
+          <div onClick={scrollToTop} className={styles.navbarHeart}>
+            <i className="icon icon-hearts" />
+          </div>
           <ul className={styles.navItems}>
             {items.map((item) => (
               <li className={styles.navItem} key={item.id}>
