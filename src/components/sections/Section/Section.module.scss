@@ -3,7 +3,6 @@
 .section {
   margin: 20px;
   box-sizing: border-box;
-  height: $viewport-height;
 }
 
 .sectionTextWrapper {
@@ -22,18 +21,6 @@
     font-size: $font-size-heading;
     margin: 0;
   }
-}
-
-.sectionSeparator {
-  padding: 10px 0;
-}
-
-.sectionHeading:after,
-.sectionSeparator:after {
-  content: '';
-  background: url('../../../images/separator.png') no-repeat center center;
-  height: 65px;
-  display: block;
 }
 
 .sectionText {

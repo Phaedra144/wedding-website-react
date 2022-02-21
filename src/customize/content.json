@@ -11,10 +11,10 @@
     "dateFormatLanguage": "en-GB",
     "location": "",
     "inputLabel": "Enter password",
-    "images": ["../images/header_1.jpg", "../images/header_2.jpg"],
+    "images": ["../images/header1.JPG", "../images/header2.JPG"],
     "imagesMobile": [
-      "../images/header_1_mobile.jpg",
-      "../images/header_2_mobile.jpg"
+      "../images/header1mobile.JPG",
+      "../images/header2mobile.JPG"
     ],
     "countdownText": {
       "days": ["day", "days"],
@@ -38,20 +38,27 @@
       "title": "Our Story",
       "timeline": [
         {
-          "date": "2011-09-01",
-          "text": "**Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "image": "../images/1000x500.png",
+          "date": "2013-08-19",
+          "text": "**This is how it began**, we met at Strand Festival at one of the counters of the festival bars, but at that time we didn't know we were meant to be each other.",
+          "image": "../images/strandfesztival.jpg",
           "side": "left"
         },
         {
-          "date": "2017-11-20",
-          "text": "**Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+          "date": "2014-08-21",
+          "text": "**Love at Nth sight**, after not interracting for a year, we again met at the festival where we decided to give it a chance and meet again in Budapest.",
+          "image": "../images/strand2.JPG",
           "side": "right"
         },
         {
-          "date": "2019-02-20",
-          "text": "**Lorem ipsum dolor sit amet**, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
-          "image": "../images/1000x500.png",
+          "date": "2014-09-05",
+          "text": "**Finally boyfriend and girlfriend**",
+          "image": "../images/bfgf.JPG",
+          "side": "left"
+        },
+        {
+          "date": "2021-05-15",
+          "text": "**Engagement**",
+          "image": "../images/engagement.jpg",
           "side": "right"
         }
       ]

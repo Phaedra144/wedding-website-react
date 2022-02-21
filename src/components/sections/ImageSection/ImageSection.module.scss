@@ -23,6 +23,7 @@
 
 .sectionTextWrapper {
   width: 100%;
+  padding: 40px 20px;
   max-width: 740px;
   margin: 0 auto;
 }
@@ -52,6 +53,6 @@
 
 @media (min-width: $breakpoint-lg) {
   .section {
-    padding: 40px 20px;
+    padding: 10px 20px;
   }
 }
