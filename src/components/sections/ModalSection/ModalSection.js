@@ -1,9 +1,9 @@
 import React from 'react'
-import Section from '../Section'
+import ImageSection from '../ImageSection'
 import ModalButton from './ModalButton'
 
 const ModalSection = ({ modal, ...rest }) => (
-  <Section {...rest} childComponent={<ModalButton {...modal} />} />
+  <ImageSection {...rest} childComponent={<ModalButton {...modal} />} />
 )
 
 export default ModalSection

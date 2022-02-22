@@ -1,9 +1,10 @@
 import React, { useState } from 'react'
 import Button from '../../../shared/Button'
 import Modal from '../../../shared/Modal'
-import Section from '../../Section'
+import MapSection from '../../MapSection'
+import Section from '../../Section/Section'
 
-const ModalButton = ({ buttonText, ...modalContent }) => {
+const ModalButton = ({ buttonText, isMap, ...modalContent }) => {
   const [isModalOpen, setIsModalOpen] = useState(false)
 
   const openModal = () => {
@@ -20,7 +21,8 @@ const ModalButton = ({ buttonText, ...modalContent }) => {
         <Button onClick={openModal}>{buttonText}</Button>
       </p>
       <Modal open={isModalOpen} onClose={closeModal}>
-        <Section {...modalContent} />
+        {isMap && <MapSection {...modalContent} />}
+        {!isMap && <Section {...modalContent} />}
       </Modal>
     </>
   )

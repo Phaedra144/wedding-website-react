@@ -1,9 +1,9 @@
 import React from 'react'
-import Section from '../Section'
+import ImageSection from '../ImageSection'
 import Timeline from './Timeline'
 
 const TimelineSection = ({ timeline, ...rest }) => (
-  <Section {...rest} childComponent={<Timeline items={timeline} />} />
+  <ImageSection {...rest} childComponent={<Timeline items={timeline}/>} />
 )
 
 export default TimelineSection

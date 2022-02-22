@@ -11,10 +11,10 @@
     "dateFormatLanguage": "en-GB",
     "location": "",
     "inputLabel": "Enter password",
-    "images": ["../images/header1.JPG", "../images/header2.JPG"],
+    "images": ["../images/header1.jpg", "../images/header2.jpeg"],
     "imagesMobile": [
-      "../images/header1mobile.JPG",
-      "../images/header2mobile.JPG"
+      "../images/header1mobile.jpg",
+      "../images/header2mobile.jpeg"
     ],
     "countdownText": {
       "days": ["day", "days"],
@@ -51,14 +51,14 @@
         },
         {
           "date": "2014-09-05",
-          "text": "**Finally boyfriend and girlfriend**",
+          "text": "**Finally girlfriend and boyfriend**, exactly on Viktor's name day after a couple of dates it was no question anymore that we should be girlfriend and boyfriend from now on.",
           "image": "../images/bfgf.JPG",
           "side": "left"
         },
         {
           "date": "2021-05-15",
-          "text": "**Engagement**",
-          "image": "../images/engagement.jpg",
+          "text": "**Engagement**, Viktor pop the big question out in Füvészkert where we always wanted to go on a date, but couldn't really get there through out the years.",
+          "image": "../images/engagement.jpeg",
           "side": "right"
         }
       ]
@@ -68,104 +68,94 @@
       "type": "ImageGridSection",
       "inNavbar": true,
       "title": "Engagement Photos",
-      "text": "Below you can find some of our favourite of the engagement photos.",
+      "text": "Below you can find some of our favourite moments of the engagement photo shoot.",
       "images": [
         {
-          "src": "../images/Szilvi&Viktor-98.JPG",
+          "src": "../images/Szilvi&Viktor-24.jpeg",
           "caption": "Engagement1"
         },
         {
-          "src": "../images/Szilvi&Viktor-38.JPG",
+          "src": "../images/Szilvi&Viktor-38.jpeg",
           "caption": "Engagement2"
         },
         {
-          "src": "../images/Szilvi&Viktor-92.JPG",
+          "src": "../images/Szilvi&Viktor-92.jpeg",
           "caption": "Engagement3"
         },
         {
-          "src": "../images/Szilvi&Viktor-131.JPG",
+          "src": "../images/Szilvi&Viktor-131.jpeg",
           "caption": "Engagement4"
         },
         {
-          "src": "../images/Szilvi&Viktor-24.JPG",
-          "caption": "Engagement4"
-        },
-        {
-          "src": "../images/Szilvi&Viktor-140.JPG",
+          "src": "../images/Szilvi&Viktor-140.jpeg",
           "caption": "Engagement6"
         },
         {
-          "src": "../images/Szilvi&Viktor-73.JPG",
+          "src": "../images/Szilvi&Viktor-73.jpeg",
           "caption": "Engagement7"
         },
         {
-          "src": "../images/Szilvi&Viktor-67.JPG",
-          "caption": "Engagement7"
+          "src": "../images/Szilvi&Viktor-67.jpeg",
+          "caption": "Engagement9"
         },
         {
-          "src": "../images/Szilvi&Viktor-34.JPG",
+          "src": "../images/Szilvi&Viktor-34.jpeg",
           "caption": "Engagement8"
         }
       ]
     },
     {
-      "id": "map",
-      "type": "MapSection",
-      "inNavbar": true,
-      "title": "Map",
-      "center": {
-        "lat": 55.76578,
-        "lng": 13.26489
-      },
-      "zoom": 11,
-      "locations": [
-        {
-          "id": "wedding",
-          "title": "Ceremony",
-          "text": "**When:** 14:00\n\n**Where:** Borlunda Kyrka, Eslöv\n\n**Link:** [Google Maps](https://goo.gl/maps/emwCfHeKa6F2)",
-          "icon": "rings",
-          "latitude": "55.800718",
-          "longitude": "13.3227702",
-          "link": "https://goo.gl/maps/emwCfHeKa6F2"
-        },
-        {
-          "id": "party",
-          "title": "Party",
-          "text": "**Where:** Ellinge slott, Ellinge Gård, Eslöv\n\n**Link:** [Google Maps](https://goo.gl/maps/ZDo9Vwz5Jok)",
-          "icon": "wine-glasses",
-          "latitude": "55.81167275",
-          "longitude": "13.287460530674393",
-          "link": "https://goo.gl/maps/ZDo9Vwz5Jok"
-        },
-        {
-          "id": "bus",
-          "title": "Bus",
-          "text": "**Where:** Lund C, stop M\n\n**Link:** [Skånetrafiken](https://www.skanetrafiken.se/globalassets/dokumentbank/terminalkartor2/2019/81216_lundc_terminalkarta_a3.pdf)",
-          "icon": "bus",
-          "latitude": "55.706388",
-          "longitude": "13.187646",
-          "link": "https://goo.gl/maps/zhi6htp3BiHAAWok6"
-        }
-      ],
-      "showLocationTextSection": true
-    },
-    {
-      "id": "miscInfo",
+      "id": "venue",
       "type": "ModalSection",
       "inNavbar": true,
-      "title": "More Info",
+      "title": "Info of the Venue",
       "text": "### Brunch\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n### Accomodation\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
       "modal": {
-        "buttonText": "Read more about accomodation",
+        "buttonText": "How to get there",
         "title": "Accomodation",
-        "text": "**Lorem ipsum dolor sit amet** consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.\n\nDuis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum."
+        "isMap": true,
+        "center": {
+          "lat": 55.76578,
+          "lng": 13.26489
+        },
+        "zoom": 11,
+        "locations": [
+          {
+            "id": "wedding",
+            "title": "Ceremony",
+            "text": "**When:** 14:00\n\n**Where:** Borlunda Kyrka, Eslöv\n\n**Link:** [Google Maps](https://goo.gl/maps/emwCfHeKa6F2)",
+            "icon": "rings",
+            "latitude": "55.800718",
+            "longitude": "13.3227702",
+            "link": "https://goo.gl/maps/emwCfHeKa6F2"
+          },
+          {
+            "id": "party",
+            "title": "Party",
+            "text": "**Where:** Ellinge slott, Ellinge Gård, Eslöv\n\n**Link:** [Google Maps](https://goo.gl/maps/ZDo9Vwz5Jok)",
+            "icon": "wine-glasses",
+            "latitude": "55.81167275",
+            "longitude": "13.287460530674393",
+            "link": "https://goo.gl/maps/ZDo9Vwz5Jok"
+          },
+          {
+            "id": "bus",
+            "title": "Bus",
+            "text": "**Where:** Lund C, stop M\n\n**Link:** [Skånetrafiken](https://www.skanetrafiken.se/globalassets/dokumentbank/terminalkartor2/2019/81216_lundc_terminalkarta_a3.pdf)",
+            "icon": "bus",
+            "latitude": "55.706388",
+            "longitude": "13.187646",
+            "link": "https://goo.gl/maps/zhi6htp3BiHAAWok6"
+          }
+        ],
+        "showLocationTextSection": true
       }
     },
     {
       "id": "imageGrid",
       "type": "ImageGridSection",
       "inNavbar": true,
-      "title": "Ellinge Slott",
+      "title": "Tamás Tanya",
       "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
       "images": [
         {
