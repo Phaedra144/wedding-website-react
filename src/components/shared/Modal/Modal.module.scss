@@ -24,8 +24,8 @@
 @media (min-width: $breakpoint-md) {
   .modal {
     border-radius: 5px;
-    width: auto;
-    max-width: 800px;
+    width: 100%;
+    max-width: 1800px;
     min-height: 0;
   }
 

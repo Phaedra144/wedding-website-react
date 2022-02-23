@@ -6,7 +6,7 @@ import styles from './MapSection.module.scss'
 
 const MapSection = ({
   id,
-  center = { lat: 55.76578, lng: 13.322263 },
+  center = { lat: 47.09705070344482, lng: 19.637465518635402 },
   zoom = 11,
   locations,
   showLocationTextSection = true,
@@ -45,8 +45,8 @@ const MapSection = ({
         <GoogleMap
           bootstrapURLKeys={{
             key: process.env.REACT_APP_GOOGLE_MAPS_API_KEY,
-            language: 'sv',
-            region: 'SE',
+            language: 'en',
+            region: 'HU',
           }}
           defaultCenter={center}
           defaultZoom={zoom}

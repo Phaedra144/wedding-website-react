@@ -1,9 +1,10 @@
 import React from 'react'
 import ImageSection from '../ImageSection'
+import Section from '../Section/Section'
 import ImageGrid from './ImageGrid'
 
 const ImageGridSection = ({ images, ...rest }) => (
-  <ImageSection {...rest} childComponent={<ImageGrid images={images} />} />
+  <Section {...rest} childComponent={<ImageGrid images={images} />} />
 )
 
 export default ImageGridSection

@@ -17,9 +17,9 @@ const ModalButton = ({ buttonText, isMap, ...modalContent }) => {
 
   return (
     <>
-      <p>
+      <div>
         <Button onClick={openModal}>{buttonText}</Button>
-      </p>
+      </div>
       <Modal open={isModalOpen} onClose={closeModal}>
         {isMap && <MapSection {...modalContent} />}
         {!isMap && <Section {...modalContent} />}
