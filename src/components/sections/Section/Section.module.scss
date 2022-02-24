@@ -1,8 +1,22 @@
 @import '../../../customize/variables';
 
 .section {
-  margin: 20px;
   box-sizing: border-box;
+  position: relative;
+  z-index: 1;
+  background-image: url(../../../images/sparkles.jpg);
+  background-size: cover;
+  color: rgb(88, 86, 86);
+
+  &:after {
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    z-index: -1;
+  }
 }
 
 .sectionTextWrapper {
@@ -47,5 +61,15 @@
     &:hover {
       text-decoration: underline;
     }
+  }
+}
+
+@media (min-width: $breakpoint-lg) {
+  .section {
+    padding: 0 20px 40px;
+  }
+
+  .section.viewport {
+    height: $viewport-height;
   }
 }

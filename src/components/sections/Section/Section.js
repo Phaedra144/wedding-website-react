@@ -2,8 +2,8 @@ import React from 'react'
 import ReactMarkdown from 'react-markdown'
 import styles from './Section.module.scss'
 
-const Section = ({ title, text, id, childComponent }) => (
-  <section className={styles.section} id={id}>
+const Section = ({ title, text, isViewPort, id, childComponent }) => (
+  <section className={`${styles['section']} ${isViewPort && styles.viewport}`} id={id}>
     <div className={styles.sectionTextWrapper}>
       <div className={title ? styles.sectionHeading : styles.sectionSeparator}>
         {!!title && <h2>{title}</h2>}

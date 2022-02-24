@@ -26,15 +26,17 @@
   "sections": [
     {
       "id": "invitation",
-      "type": "ImageSection",
+      "type": "Section",
       "inNavbar": true,
+      "isViewPort": true,
       "title": "Invitation",
-      "text": "### Dear Family and Friends\n as we are making a brave move and decided to exchange vows and join in marriage in the presence of our loved ones, \n #### we joyfully request the pleasure of your company \n ### Wedding Ceremony \n Friday, July 22 at 5:00 in the evening \n ### \n Tamás Tanya, Csemő, Szélmalom dűlő 2, 2713 \n ### Dinner and Reception \n Friday, July 22 at 7:00 in the evening \n ### Arrival \n You can arrive to the venue from 2:30 in the afternoon"
+      "text": "### Dear Family and Friends\n as we are making a brave move and decided to exchange vows and join in marriage in the presence of our loved ones, \n #### we joyfully request the pleasure of your company. \n ### Wedding Ceremony \n Friday, July 22 at 5:00 in the evening \n ### \n Tamás Tanya, Csemő, Szélmalom dűlő 2, 2713 \n ### Dinner and Reception \n Friday, July 22 at 7:00 in the evening \n ### Arrival \n You can arrive to the venue from 2:30 in the afternoon"
     },
     {
       "id": "ourStory",
       "type": "TimelineSection",
       "inNavbar": true,
+      "isViewPort": false,
       "title": "Our Story",
       "timeline": [
         {
@@ -46,7 +48,7 @@
         {
           "date": "2014-08-21",
           "text": "**Love at Nth sight**, after not interracting for a year, we again met at the festival where we decided to give it a chance and meet again in Budapest.",
-          "image": "../images/strand2.JPG",
+          "image": "../images/viktor.jpg",
           "side": "right"
         },
         {
@@ -67,6 +69,7 @@
       "id": "engagement photos",
       "type": "ImageGridSection",
       "inNavbar": true,
+      "isViewPort": true,
       "title": "Engagement Photos",
       "text": "Below you can find some of our favourite moments of the engagement photo shoot.",
       "images": [
@@ -108,6 +111,7 @@
       "id": "venue",
       "type": "ModalSection",
       "inNavbar": true,
+      "isViewPort": false,
       "title": "Info of the Venue",
       "text": "### Tamás Tanya\n is a huge ranch next to a forest and various fieldlands with authentic straw bales and every characteristics of the rural life. Tamás Tanya will give home to the nonsectarian, civil ceremony at 17:00 sharp in the Ceremony Garden. (pictures below) \n### Accomodation\n If you require to stay after the reception you can be accomodated in wooden cabins of maximum of 4 people. The price of one night stay is 4500 HUF / person that might be transferred ahead. \n ### \n The next day we invite you for a lovely breakfast to dispel hangover. Rooms have to be vacated by 10:00 am the latest. \n ### \n Don't forget your swim suit home!",
       "modal": {
@@ -155,6 +159,7 @@
       "id": "imageGrid",
       "type": "ImageGridSection",
       "inNavbar": true,
+      "isViewPort": true,
       "title": "Tamás Tanya",
       "text": "in pictures",
       "images": [
