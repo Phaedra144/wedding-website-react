@@ -3,16 +3,15 @@
 .section {
   position: relative;
   z-index: 1;
-  background-image: url(../../../images/full-width-image.jpg);
+  background-image: url(../../../images/sparkles.jpg);
   background-size: cover;
-  color: #fff;
+  color: rgb(88, 86, 86);
   padding: 50px 20px;
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
   align-items: center;
   margin-top: 40px;
-  height: $viewport-height;
 
   &:after {
     content: '';
@@ -22,7 +21,6 @@
     left: 0;
     right: 0;
     z-index: -1;
-    background: rgba(0, 0, 0, 0.5);
   }
 }
 

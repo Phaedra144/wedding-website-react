@@ -59,7 +59,7 @@
         },
         {
           "date": "2021-05-15",
-          "text": "**Engagement**, Viktor pop the big question out in Füvészkert where we always wanted to go on a date, but couldn't really get there through out the years.",
+          "text": "**Engagement**, Viktor pop the big question out in Füvészkert where we always wanted to go on a date, but couldn't really get there through the years.",
           "image": "../images/engagement.jpeg",
           "side": "right"
         }
@@ -203,7 +203,16 @@
       "inNavbar": true,
       "isViewPort": true,
       "title": "Wishlist",
-      "text": "We've been together a year or two, we don't really need anything new. \n \n Yet if a gift is in your intention, we thought that we would mention, we'd love some pennies to put together, to save for something that we will treasure. \n \n And just remember, what means the most, is that you are with us to raise a toast!"
+      "text": "We've been together a year or two, we don't really need anything new. \n \n Yet if a gift is in your intention, we thought that we would mention, we'd love some pennies to put together, to save for something that we will treasure. \n \n And just remember, what means the most, is that you are with us to raise a toast! \n\n \n\n ![Alt text](./wedding-bouquet.jpg)"
+    },
+    {
+      "id": "hashtag",
+      "type": "InstagramWallSection",
+      "inNavbar": true,
+      "isViewPort": true,
+      "title": "OurWedding",
+      "text": "Wedding highlights video will be uploaded here. Until that...",
+      "youTubeUrl": "https://www.youtube.com/embed/trgX6B7DvL4"
     },
     {
       "id": "rsvp",
@@ -213,7 +222,7 @@
       "forms": [
         {
           "id": "wedding-form",
-          "title": "Wedding",
+          "title": "Wedding RSVP",
           "text": "In case you have the possibility to take part in our wedding, please fill the form until **May 31**!",
           "buttonText": "Open sign-up form",
           "url": "https://docs.google.com/forms/d/e/1FAIpQLSe5kjXZFOsqkSmJyremQHuS5GPfOUUCZHrpElMEeHUObdxJhA/viewform?embedded=true"
@@ -230,22 +239,13 @@
         {
           "id": "upload-form",
           "title": "Image Upload",
-          "text": "Please upload the best pictures you took on your wedding and you would like to share with us.",
+          "text": "Please upload the best pictures you took on our wedding and share with us.",
           "buttonText": "Upload images",
           "url": "https://photos.app.goo.gl/gESu9hGNsfC5wRrJ8",
           "newWindow": true
         }
       ],
       "startDate": "2021-07-30T14:00:00+02:00"
-    },
-    {
-      "id": "hashtag",
-      "type": "InstagramWallSection",
-      "inNavbar": true,
-      "isViewPort": true,
-      "title": "OurWedding",
-      "text": "Wedding highlights video will be uploaded here. Until that...",
-      "youTubeUrl": "https://www.youtube.com/embed/trgX6B7DvL4"
     },
     {
       "id": "contact",
