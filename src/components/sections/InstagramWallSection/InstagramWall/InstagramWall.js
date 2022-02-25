@@ -1,14 +1,18 @@
 import React from 'react'
 import styles from './InstagramWall.module.scss'
 
-const InstagramWall = ({ wallUrl }) => (
+const InstagramWall = ({ youTubeUrl }) => (
   <div className={styles.wrapper}>
     <iframe
-      src={wallUrl}
-      title="Instagram"
-      className={styles.instagramWallIframe}
-      scrolling="no"
-    />
+      width="560"
+      height="315"
+      src={youTubeUrl}
+      title="YouTube video player"
+      frameborder="0"
+      allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+      allowfullscreen>
+
+    </iframe>
   </div>
 )
 

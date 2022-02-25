@@ -2,10 +2,10 @@ import React from 'react'
 import ImageSection from '../ImageSection'
 import InstagramWall from './InstagramWall'
 
-const InstagramWallSection = ({ wallUrl, ...rest }) => (
+const InstagramWallSection = ({ youTubeUrl, ...rest }) => (
   <ImageSection
     {...rest}
-    childComponent={<InstagramWall wallUrl={wallUrl} />}
+    childComponent={<InstagramWall youTubeUrl={youTubeUrl} />}
   />
 )
 

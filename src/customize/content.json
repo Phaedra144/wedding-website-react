@@ -28,9 +28,9 @@
       "id": "invitation",
       "type": "Section",
       "inNavbar": true,
-      "isViewPort": true,
+      "isViewPort": false,
       "title": "Invitation",
-      "text": "### Dear Family and Friends\n as we are making a brave move and decided to exchange vows and join in marriage in the presence of our loved ones, \n #### we joyfully request the pleasure of your company. \n ### Wedding Ceremony \n Friday, July 22 at 5:00 in the evening \n ### \n Tamás Tanya, Csemő, Szélmalom dűlő 2, 2713 \n ### Dinner and Reception \n Friday, July 22 at 7:00 in the evening \n ### Arrival \n You can arrive to the venue from 2:30 in the afternoon"
+      "text": "### Dear Family and Friends\n as we made a brave move and decided to exchange vows and join in marriage in the presence of our loved ones, \n #### we joyfully request the pleasure of your company. \n ### Wedding Ceremony \n Friday, July 22 at 5:00 in the evening \n\n Tamás Tanya, Csemő, Szélmalom dűlő 2, 2713 \n ### Dinner and Reception \n Friday, July 22 at 7:00 in the evening \n ### Arrival \n You can arrive to the venue from 2:30 in the afternoon \n ### Transfer to Cegléd \n During the night there will be a minibus turning 3-4 times making sure to transfer those guests safe that wants to go to Cegléd. \n ### [RSVP](https://forms.gle/Z1wcSqFYtgA9FUPC7) \n Please send RSVP until May 31"
     },
     {
       "id": "ourStory",
@@ -113,7 +113,7 @@
       "inNavbar": true,
       "isViewPort": false,
       "title": "Info of the Venue",
-      "text": "### Tamás Tanya\n is a huge ranch next to a forest and various fieldlands with authentic straw bales and every characteristics of the rural life. Tamás Tanya will give home to the nonsectarian, civil ceremony at 17:00 sharp in the Ceremony Garden. (pictures below) \n### Accomodation\n If you require to stay after the reception you can be accomodated in wooden cabins of maximum of 4 people. The price of one night stay is 4500 HUF / person that might be transferred ahead. \n ### \n The next day we invite you for a lovely breakfast to dispel hangover. Rooms have to be vacated by 10:00 am the latest.\n #### \n Don't forget your swim suit home! \n ### Transfer to Cegléd \n Those who wants to go and sleep in their own bed in Cegléd we provide transfer to the way back. The minibus will turn 3-4 times during the night, so to make sure everyone can get home safe.",
+      "text": "### Tamás Tanya\n is a huge ranch next to a forest and various fieldlands with authentic straw bales and every characteristics of the rural life. Tamás Tanya will give home to the nonsectarian, civil ceremony at 17:00 sharp in the Ceremony Garden. (pictures below) \n### Accomodation\n If you require to stay after the reception you can be accomodated in wooden cabins of maximum of 4 people. The price of one night stay is 4500 HUF / person that might be transferred ahead. \n\n The next day we invite you for a lovely breakfast to dispel hangover. Rooms have to be vacated by 10:00 am the latest.\n\n Don't forget your swim suit home! \n ### Transfer to Cegléd \n Those who wants to go and sleep in their own bed in Cegléd we provide transfer to the way back. The minibus will turn 3-4 times during the night, so to make sure everyone can get home safe.",
       "modal": {
         "buttonText": "How to get there",
         "title": "Accomodation",
@@ -161,7 +161,7 @@
       "inNavbar": true,
       "isViewPort": true,
       "title": "Tamás Tanya",
-      "text": "at it's best",
+      "text": "at it's finest",
       "images": [
         {
           "src": "https://i.szalas.hu/hotels/1439430/500x500/37682652.webp",
@@ -201,9 +201,9 @@
       "id": "wishlist",
       "type": "Section",
       "inNavbar": true,
-      "isViewPort": false,
+      "isViewPort": true,
       "title": "Wishlist",
-      "text": "We've been together a year or two, we don't really need anything new. \n ### \n Yet if a gift is in your intention, we thought that we would mention, we'd love some pennies to put together, to save for something that we will treasure. \n ### \n And just remember, what means the most, is that you are with us to raise a toast!"
+      "text": "We've been together a year or two, we don't really need anything new. \n \n Yet if a gift is in your intention, we thought that we would mention, we'd love some pennies to put together, to save for something that we will treasure. \n \n And just remember, what means the most, is that you are with us to raise a toast!"
     },
     {
       "id": "rsvp",
@@ -214,16 +214,9 @@
         {
           "id": "wedding-form",
           "title": "Wedding",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "text": "In case you have the possibility to take part in our wedding, please fill the form until **May 31**!",
           "buttonText": "Open sign-up form",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfhXgh2KI8hz0dqCJlRqPib3kot-gEtBD9-xnySjaNRDncm5Q/viewform?embedded=true"
-        },
-        {
-          "id": "speech-form",
-          "title": "Speech",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-          "buttonText": "Open sign-up form",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSfhXgh2KI8hz0dqCJlRqPib3kot-gEtBD9-xnySjaNRDncm5Q/viewform?embedded=true"
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSe5kjXZFOsqkSmJyremQHuS5GPfOUUCZHrpElMEeHUObdxJhA/viewform?embedded=true"
         }
       ],
       "endDate": "2030-10-05T14:00:00+02:00"
@@ -237,9 +230,9 @@
         {
           "id": "upload-form",
           "title": "Image Upload",
-          "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
+          "text": "Please upload the best pictures you took on your wedding and you would like to share with us.",
           "buttonText": "Upload images",
-          "url": "https://www.dropbox.com/request/yourId",
+          "url": "https://photos.app.goo.gl/gESu9hGNsfC5wRrJ8",
           "newWindow": true
         }
       ],
@@ -249,16 +242,17 @@
       "id": "hashtag",
       "type": "InstagramWallSection",
       "inNavbar": true,
+      "isViewPort": true,
       "title": "OurWedding",
-      "text": "Follow the hashtag [#OurWedding](https://www.instagram.com/explore/tags/ourwedding/). Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.",
-      "wallUrl": "https://walls.io/r3jeq?nobackground=1&show_header=0&columns=5"
+      "text": "Wedding highlights video will be uploaded here. Until that...",
+      "youTubeUrl": "https://www.youtube.com/embed/trgX6B7DvL4"
     },
     {
       "id": "contact",
       "type": "Section",
       "inNavbar": true,
       "title": "Contact Us",
-      "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua:\n* Alice: 07X-XXX XX XX\n* Bob: 07X-XXX XX XX\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua: [wedding@gmail.com](mailto:wedding@gmail.com)"
+      "text": "Thank you for sharing this amasing day with us! In case of any question:\n* Szilvi: 06-30-830-86-16\n* Viktor: 06-20-231-52-80\n\nLorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua: [wedding@gmail.com](mailto:wedding@gmail.com)"
     }
   ]
 }
