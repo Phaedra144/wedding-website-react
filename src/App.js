@@ -10,6 +10,7 @@ import Navbar from './components/navigation/Navbar'
 import Section from './components/sections/Section'
 import TimelineSection from './components/sections/TimelineSection'
 import content from './customize/content.json'
+import styles from './App.module.scss'
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(
@@ -53,7 +54,7 @@ const App = () => {
     }))
 
   return (
-    <div className="app">
+    <div className={styles.app}>
       <header>
         {isLoggedIn && <Navbar items={navItems} />}
         <Header
@@ -64,7 +65,7 @@ const App = () => {
         />
       </header>
       {isLoggedIn && (
-        <main>
+        <main className={styles.main}>
           {sections.map(({ type, ...sectionContent }) => {
             const SectionComponent = sectionComponents[type] || Section
             return (
