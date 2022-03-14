@@ -113,7 +113,7 @@
       "inNavbar": true,
       "isViewPort": false,
       "title": "Info of the Venue",
-      "text": "### Tamás Tanya\n is a huge ranch next to a forest and various fieldlands with authentic straw bales and every characteristics of the rural life. Tamás Tanya will give home to the nonsectarian, civil ceremony at 17:00 sharp in the Ceremony Garden. (pictures below) \n### Accomodation\n If you require to stay after the reception you can be accomodated in wooden cabins of maximum of 4 people. The price of one night stay is 4500 HUF / person that might be transferred ahead. \n\n The next day we invite you for a lovely breakfast to dispel hangover. Rooms have to be vacated by 10:00 am the latest.\n\n Don't forget your swim suit home! \n ### Transfer to Cegléd \n Those who wants to go and sleep in their own bed in Cegléd we provide transfer to the way back. The minibus will turn 3-4 times during the night, so to make sure everyone can get home safe.",
+      "text": "### Tamás Tanya\n is a huge ranch next to a forest and various fieldlands with authentic straw bales and every characteristics of the rural life. Tamás Tanya will give home to the nonsectarian, civil ceremony at 17:00 sharp in the Ceremony Garden. (pictures below) \n### Accomodation\n If you require to stay after the reception you can be accomodated in wooden cabins of maximum of 4 people. The price of one night stay is 4500 HUF / person that might be transferred ahead. \n\n The next day we invite you for a lovely breakfast to dispel hangover. Rooms have to be vacated by 10:00 am the latest.\n\n Don't forget your swim suit home! 👙🩱🩲😎 \n ### Transfer to Cegléd \n Those who wants to go and sleep in their own bed in Cegléd we provide transfer to the way back. The minibus will turn 3-4 times during the night, so to make sure everyone can get home safe.",
       "modal": {
         "buttonText": "How to get there",
         "title": "Accomodation",
@@ -203,7 +203,7 @@
       "inNavbar": true,
       "isViewPort": true,
       "title": "Wishlist",
-      "text": "We've been together a year or two, we don't really need anything new. \n \n Yet if a gift is in your intention, we thought that we would mention, we'd love some pennies to put together, to save for something that we will treasure. \n \n And just remember, what means the most, is that you are with us to raise a toast! \n\n \n\n ![Alt text](/wedding-bouquet.jpg)"
+      "text": "We've been together a year or two, we don't really need anything new. \n \n Yet if a gift is in your intention, we thought that we would mention, we'd love some pennies to put together, to save for something that we will treasure. \n \n And just remember, what means the most, is that you are with us to raise a toast! \n\n \n\n ![Alt text](./rsz_2wedding-bouquet.jpg)"
     },
     {
       "id": "hashtag",
@@ -235,6 +235,7 @@
       "id": "rsvp",
       "type": "FormsSection",
       "inNavbar": true,
+      "isViewPort": false,
       "title": "RSVP",
       "forms": [
         {

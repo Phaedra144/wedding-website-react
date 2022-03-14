@@ -4,7 +4,7 @@ import Button from '../../shared/Button'
 import Modal from '../../shared/Modal'
 import styles from './FormsSection.module.scss'
 
-const FormsSection = ({ forms, id }) => {
+const FormsSection = ({ forms, isViewPort, id }) => {
   const [selectedFormId, setSelectedFormId] = useState('')
 
   const openFormModal = (formId) => {
@@ -28,7 +28,7 @@ const FormsSection = ({ forms, id }) => {
   }
 
   return (
-    <section className={styles.section} id={id}>
+    <section className={`${styles['section']} ${isViewPort && styles.viewport}`} id={id}>
       {forms &&
         forms.map(({ id, title, text, buttonText, url, newWindow = false }) => (
           <div className={styles.subsectionWrapper} key={id}>
