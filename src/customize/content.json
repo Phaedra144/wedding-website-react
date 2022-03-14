@@ -203,7 +203,7 @@
       "inNavbar": true,
       "isViewPort": true,
       "title": "Wishlist",
-      "text": "We've been together a year or two, we don't really need anything new. \n \n Yet if a gift is in your intention, we thought that we would mention, we'd love some pennies to put together, to save for something that we will treasure. \n \n And just remember, what means the most, is that you are with us to raise a toast! \n\n \n\n ![Alt text](./wedding-bouquet.jpg)"
+      "text": "We've been together a year or two, we don't really need anything new. \n \n Yet if a gift is in your intention, we thought that we would mention, we'd love some pennies to put together, to save for something that we will treasure. \n \n And just remember, what means the most, is that you are with us to raise a toast! \n\n \n\n ![Alt text](/wedding-bouquet.jpg)"
     },
     {
       "id": "hashtag",
@@ -213,22 +213,6 @@
       "title": "OurWedding",
       "text": "Wedding highlights video will be uploaded here. Until that...",
       "youTubeUrl": "https://www.youtube.com/embed/trgX6B7DvL4"
-    },
-    {
-      "id": "rsvp",
-      "type": "FormsSection",
-      "inNavbar": true,
-      "title": "RSVP",
-      "forms": [
-        {
-          "id": "wedding-form",
-          "title": "Wedding RSVP",
-          "text": "In case you have the possibility to take part in our wedding, please fill the form until **May 31**!",
-          "buttonText": "Open sign-up form",
-          "url": "https://docs.google.com/forms/d/e/1FAIpQLSe5kjXZFOsqkSmJyremQHuS5GPfOUUCZHrpElMEeHUObdxJhA/viewform?embedded=true"
-        }
-      ],
-      "endDate": "2030-10-05T14:00:00+02:00"
     },
     {
       "id": "imageUpload",
@@ -245,7 +229,23 @@
           "newWindow": true
         }
       ],
-      "startDate": "2021-07-30T14:00:00+02:00"
+      "startDate": "2022-07-30T14:00:00+02:00"
+    },
+    {
+      "id": "rsvp",
+      "type": "FormsSection",
+      "inNavbar": true,
+      "title": "RSVP",
+      "forms": [
+        {
+          "id": "wedding-form",
+          "title": "Wedding RSVP",
+          "text": "In case you have the possibility to take part in our wedding, please fill the form until **May 31**!",
+          "buttonText": "Open sign-up form",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSe5kjXZFOsqkSmJyremQHuS5GPfOUUCZHrpElMEeHUObdxJhA/viewform?embedded=true"
+        }
+      ],
+      "endDate": "2030-10-05T14:00:00+02:00"
     },
     {
       "id": "contact",

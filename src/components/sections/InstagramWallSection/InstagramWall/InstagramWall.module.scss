@@ -2,7 +2,7 @@
 
 .wrapper {
   width: 100%;
-  max-width: 287px;
+  max-width: 487px;
   margin: 0 auto;
   overflow: hidden;
   background-color: rgba(0, 0, 0, 0.6);
@@ -14,6 +14,10 @@
   height: 267px;
   width: 1400px;
   margin-left: 7px;
+}
+
+iframe {
+  height: 500px;
 }
 
 @media (min-width: $breakpoint-lg) {
