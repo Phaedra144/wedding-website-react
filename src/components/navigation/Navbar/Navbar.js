@@ -1,14 +1,17 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useState, useContext } from 'react'
 import { Link, scroller, animateScroll } from 'react-scroll'
 import classNames from 'classnames'
 import MobileMenu from '../MobileMenu'
 import MobileMenuButton from '../MobileMenuButton'
 import MobileMenuItem from '../MobileMenuItem'
 import styles from './Navbar.module.scss'
+import LanguageContext from '../../../context/language-context'
+
 
 const Navbar = ({ items = [] }) => {
-  const [isTop, setIsTop] = useState(true)
-  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false)
+  const [isTop, setIsTop] = useState(true);
+  const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const langCtx = useContext(LanguageContext);
 
   useEffect(() => {
     document.addEventListener('scroll', () => {
@@ -31,6 +34,10 @@ const Navbar = ({ items = [] }) => {
     })
   }
 
+  const handleLanguage = (lang) => {
+    langCtx.onSettingLanguage(lang)
+  }
+
   const scrollToTop = () => {
     animateScroll.scrollToTop()
   }
@@ -49,9 +56,18 @@ const Navbar = ({ items = [] }) => {
           color={isTop || isMobileMenuOpen ? '#ffffff' : '#000000'}
           className={`${styles.mobileMenuButton} d-lg-none`}
         />
-        <div onClick={scrollToTop} className={`${styles.navIcon} d-lg-none`}>
-          <i className="icon icon-hearts" />
-        </div>
+        <span onClick={() => {
+          handleLanguage("hun")
+        }}
+          className={`${styles.navItem} d-lg-none`}>
+          HUN
+        </span>
+        <span onClick={() => {
+          handleLanguage("eng")
+        }}
+          className={`${styles.navItem} d-lg-none`}>
+          ENG
+        </span>
         <div className={`${styles.navContent} d-none d-lg-flex`}>
           <div onClick={scrollToTop} className={styles.navbarHeart}>
             <i className="icon icon-hearts" />
@@ -71,6 +87,29 @@ const Navbar = ({ items = [] }) => {
                 </Link>
               </li>
             ))}
+            <li className={styles.navItem}>
+              <span
+                onClick={() => {
+                  handleLanguage("hun")
+                }}
+              >
+                HUN
+              </span>
+            </li>
+            <li className={styles.navItem}>
+              <span className={styles.slash}>
+                /
+              </span>
+            </li>
+            <li className={styles.navItem}>
+              <span
+                onClick={() => {
+                  handleLanguage("eng")
+                }}
+              >
+                ENG
+              </span>
+            </li>
           </ul>
         </div>
       </nav>

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useContext, useState } from 'react'
 import FormsSection from './components/sections/FormsSection'
 import Header from './components/header/Header'
 import ImageSection from './components/sections/ImageSection'
@@ -9,13 +9,17 @@ import ModalSection from './components/sections/ModalSection'
 import Navbar from './components/navigation/Navbar'
 import Section from './components/sections/Section'
 import TimelineSection from './components/sections/TimelineSection'
-import content from './customize/content.json'
+import contentEng from './customize/content.json'
+import contentHun from './customize/content_hun.json'
 import styles from './App.module.scss'
+import LanguageContext from './context/language-context'
 
 const App = () => {
   const [isLoggedIn, setIsLoggedIn] = useState(
     !process.env.REACT_APP_SECRET_CODE
   )
+
+  const langCtx = useContext(LanguageContext);
 
   const checkSecretCode = (value) => {
     if (value === process.env.REACT_APP_SECRET_CODE) {
@@ -37,7 +41,9 @@ const App = () => {
     TimelineSection,
   }
 
-  const sections = content.sections.filter((section) => {
+  const contentText = langCtx.lang === "hun" ? contentHun : contentEng;
+
+  const sections = contentText.sections.filter((section) => {
     const startDate = section.startDate
     const endDate = section.endDate
     return !(
@@ -58,7 +64,7 @@ const App = () => {
       <header>
         {isLoggedIn && <Navbar items={navItems} />}
         <Header
-          {...content.header}
+          {...contentText.header}
           scrollTo={sections.length > 0 && sections[0].id}
           isLoggedIn={isLoggedIn}
           onInputChange={checkSecretCode}

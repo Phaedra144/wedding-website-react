@@ -62,9 +62,14 @@
       border-bottom: 1px solid $primary-color;
       cursor: pointer;
     }
-
+    
     .active {
       border-bottom: 1px solid $primary-color;
+    }
+
+    .slash {
+      border-bottom: none;
+      margin-left: 0rem;
     }
   }
 }
@@ -84,6 +89,11 @@
     :hover {
       color: #fff;
       border-bottom: 1px solid #fff;
+    }
+
+    .slash {
+      border-bottom: none;
+      margin-left: 0rem;
     }
   }
 }
