@@ -27,3 +27,6 @@ yarn.lock
 
 # images
 /public/images
+
+# content
+/src/customize
