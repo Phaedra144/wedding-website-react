@@ -1,0 +1,259 @@
+﻿{
+  "header": {
+    "title": "Wedding",
+    "names": ["Szilvi", "Viktor"],
+    "date": "2022-07-22T17:00:00+01:00",
+    "dateFormat": {
+      "year": "numeric",
+      "month": "long",
+      "day": "numeric"
+    },
+    "dateFormatLanguage": "en-GB",
+    "location": "",
+    "inputLabel": "Enter password",
+    "images": ["../images/header1.jpg", "../images/header2.jpeg"],
+    "imagesMobile": [
+      "../images/header1mobile.jpg",
+      "../images/header2mobile.jpeg"
+    ],
+    "countdownText": {
+      "days": ["day", "days"],
+      "hours": ["hour", "hours"],
+      "minutes": ["minute", "minutes"],
+      "seconds": ["second", "seconds"]
+    }
+  },
+  "sections": [
+    {
+      "id": "invitation",
+      "type": "Section",
+      "inNavbar": true,
+      "isViewPort": false,
+      "title": "Invitation",
+      "text": "### Dear Family and Friends\n as we made a brave move and decided to exchange vows and join in marriage in the presence of our loved ones, \n #### we joyfully request the pleasure of your company. \n ### Wedding Ceremony \n Friday, July 22 at 5:00 in the evening \n\n Tamás Tanya, Csemő, Szélmalom dűlő 2, 2713 \n ### Dinner and reception \n Friday, July 22 at 7:00 in the evening \n ### Arrival \n You can arrive to the venue from 3:30 in the afternoon \n ### Transfer to Cegléd \n During the night there will be a minibus turning 3-4 times making sure to transfer those guests safe that wants to go to Cegléd. \n ### [RSVP](https://forms.gle/Z1wcSqFYtgA9FUPC7) \n Please send RSVP until May 31 (1 person per couple may fill it)"
+    },
+    {
+      "id": "ourStory",
+      "type": "TimelineSection",
+      "inNavbar": true,
+      "isViewPort": false,
+      "title": "Our Story",
+      "timeline": [
+        {
+          "date": "2013-08-19",
+          "text": "**This is how it began**, we met at Strand Festival at one of the counters of the festival bars, but at that time we didn't know we were meant to be each other.",
+          "image": "../images/strandfesztival.jpg",
+          "side": "left"
+        },
+        {
+          "date": "2014-08-21",
+          "text": "**Love at Nth sight**, after not interracting for a year, we again met at the festival where we decided to give it a chance and meet again in Budapest.",
+          "image": "../images/viktor.jpg",
+          "side": "right"
+        },
+        {
+          "date": "2014-09-05",
+          "text": "**Finally girlfriend and boyfriend**, exactly on Viktor's name day after a couple of dates it was no question anymore that we should be girlfriend and boyfriend from now on.",
+          "image": "../images/bfgf.JPG",
+          "side": "left"
+        },
+        {
+          "date": "2021-05-15",
+          "text": "**Engagement**, Viktor pop the big question out in Füvészkert where we always wanted to go on a date, but couldn't really get there through the years.",
+          "image": "../images/engagement.jpeg",
+          "side": "right"
+        }
+      ]
+    },
+    {
+      "id": "engagement photos",
+      "type": "ImageGridSection",
+      "inNavbar": true,
+      "isViewPort": true,
+      "title": "Engagement Photos",
+      "text": "Below you can find some of our favourite moments of the engagement photo shoot.",
+      "images": [
+        {
+          "src": "../images/Szilvi&Viktor-24.jpeg",
+          "caption": "Engagement1"
+        },
+        {
+          "src": "../images/Szilvi&Viktor-38.jpeg",
+          "caption": "Engagement2"
+        },
+        {
+          "src": "../images/Szilvi&Viktor-92.jpeg",
+          "caption": "Engagement3"
+        },
+        {
+          "src": "../images/Szilvi&Viktor-131.jpeg",
+          "caption": "Engagement4"
+        },
+        {
+          "src": "../images/Szilvi&Viktor-140.jpeg",
+          "caption": "Engagement6"
+        },
+        {
+          "src": "../images/Szilvi&Viktor-73.jpeg",
+          "caption": "Engagement7"
+        },
+        {
+          "src": "../images/Szilvi&Viktor-67.jpeg",
+          "caption": "Engagement9"
+        },
+        {
+          "src": "../images/Szilvi&Viktor-34.jpeg",
+          "caption": "Engagement8"
+        }
+      ]
+    },
+    {
+      "id": "venue",
+      "type": "ModalSection",
+      "inNavbar": true,
+      "isViewPort": false,
+      "title": "Info of the Venue",
+      "text": "### [Tamás Tanya](https://tamastanya.hu/)\n is a huge ranch next to a forest and various fieldlands with authentic straw bales and every characteristics of the rural life. Tamás Tanya will give home to the nonsectarian, civil ceremony at 17:00 sharp in the Ceremony Garden. (pictures below) \n### Accomodation\n If you require to stay after the reception you can be accomodated in wooden cabins of maximum of 4 people. The price of one night stay is 4500 HUF / person that might be transferred ahead. \n\n The next day we invite you for a lovely breakfast to dispel hangover. Rooms have to be vacated by 10:00 am the latest.\n\n ### Transfer to Cegléd \n Those who wants to go and sleep in their own bed in Cegléd we provide transfer to the way back. The minibus will turn 3-4 times during the night, so to make sure everyone can get home safe.",
+      "modal": {
+        "buttonText": "How to get there",
+        "title": "Accomodation",
+        "isMap": true,
+        "center": {
+          "lat": 47.09705070344482,
+          "lng": 19.637465518635402
+        },
+        "zoom": 11,
+        "locations": [
+          {
+            "id": "wedding",
+            "title": "Ceremony",
+            "text": "**When:** 17:00\n\n**Where:** Tamás Tanya, Ceremony Garden, Csemő\n\n**Link:** [Google Maps](https://goo.gl/maps/mkWS7phLiQcwBqyg8)",
+            "icon": "rings",
+            "latitude": "47.09705070344482",
+            "longitude": "19.637465518635402",
+            "link": "https://goo.gl/maps/mkWS7phLiQcwBqyg8"
+          },
+          {
+            "id": "party",
+            "title": "Party",
+            "text": "**Where:** Tamás Tanya, Gerendás Étterem, Csemő\n\n**Link:** [Google Maps](https://goo.gl/maps/cwvmCVtS8uLv6mAv7)",
+            "icon": "wine-glasses",
+            "latitude": "47.096970617338386",
+            "longitude": "19.64111304530286",
+            "link": "https://goo.gl/maps/cwvmCVtS8uLv6mAv7"
+          },
+          {
+            "id": "train",
+            "title": "Train",
+            "text": "**Where:** from Nyugati Railway station, to Cegléd train station\n\n**Link:** [Elvira](https://jegy.mav.hu/?honnan=005510009&hova=005513722&idopont=202207220000&indulaserkezes=indulas&lang=en)",
+            "icon": "train",
+            "latitude": "47.182452",
+            "longitude": "19.806677",
+            "link": "https://goo.gl/maps/F6YsFAsUa2injg2Z6"
+          }
+        ],
+        "showLocationTextSection": true
+      }
+    },
+    {
+      "id": "tamastanya",
+      "type": "ImageGridSection",
+      "inNavbar": true,
+      "isViewPort": true,
+      "title": "Tamás Tanya",
+      "text": "at its finest",
+      "images": [
+        {
+          "src": "https://i.szalas.hu/hotels/1439430/500x500/37682652.webp",
+          "caption": "TamásTanya1"
+        },
+        {
+          "src": "https://i.szalas.hu/hotels/1439430/500x500/37682646.webp",
+          "caption": "TamásTanya2"
+        },
+        {
+          "src": "https://i.szalas.hu/hotels/1439430/500x500/37682658.webp",
+          "caption": "TamásTanya3"
+        },
+        {
+          "src": "https://i.szalas.hu/hotels/1439430/500x500/37682659.webp",
+          "caption": "Pool"
+        },
+        {
+          "src": "https://i.szalas.hu/hotels/1439430/500x500/37682653.webp",
+          "caption": "GerendásÉtterem"
+        },
+        {
+          "src": "https://tamastanya.hu/wp-content/gallery/gerendas-etterem/20210821_103127.jpg",
+          "caption": "GerendásÉtterem2"
+        },
+        {
+          "src": "https://i2.wp.com/tamastanya.hu/wp-content/uploads/2017/08/DSC00189.jpg?resize=1024%2C768&ssl=1",
+          "caption": "Faház"
+        },
+        {
+          "src": "https://i2.wp.com/tamastanya.hu/wp-content/uploads/2017/08/fahaz-2.jpg?w=640&ssl=1",
+          "caption": "Faház2"
+        }
+      ]
+    },
+    {
+      "id": "wishlist",
+      "type": "Section",
+      "inNavbar": true,
+      "isViewPort": true,
+      "title": "Wishlist",
+      "text": "We've been together a year or two, we don't really need anything new. \n \n Yet if a gift is in your intention, we thought that we would mention, we'd love some pennies to put together, to save for something that we will treasure. \n \n And just remember, what means the most, is that you are with us to raise a toast!"
+    },
+    {
+      "id": "hashtag",
+      "type": "InstagramWallSection",
+      "inNavbar": true,
+      "isViewPort": true,
+      "title": "OurWedding",
+      "text": "Wedding highlights video will be uploaded here. Until that...",
+      "youTubeUrl": "https://www.youtube.com/embed/trgX6B7DvL4"
+    },
+    {
+      "id": "imageUpload",
+      "type": "FormsSection",
+      "inNavbar": true,
+      "title": "Image Upload",
+      "forms": [
+        {
+          "id": "upload-form",
+          "title": "Image Upload",
+          "text": "Please upload the best pictures you took on our wedding and share with us.",
+          "buttonText": "Upload images",
+          "url": "https://photos.app.goo.gl/gESu9hGNsfC5wRrJ8",
+          "newWindow": true
+        }
+      ],
+      "startDate": "2022-07-30T14:00:00+01:00"
+    },
+    {
+      "id": "rsvp",
+      "type": "FormsSection",
+      "inNavbar": true,
+      "isViewPort": false,
+      "title": "RSVP",
+      "forms": [
+        {
+          "id": "wedding-form",
+          "title": "Wedding RSVP",
+          "text": "In case you have the possibility to take part in our wedding, please fill the form until **May 31**!",
+          "buttonText": "Open sign-up form",
+          "url": "https://docs.google.com/forms/d/e/1FAIpQLSe5kjXZFOsqkSmJyremQHuS5GPfOUUCZHrpElMEeHUObdxJhA/viewform?embedded=true"
+        }
+      ],
+      "endDate": "2030-10-05T14:00:00+01:00"
+    },
+    {
+      "id": "contact",
+      "type": "Section",
+      "inNavbar": true,
+      "title": "Contact Us",
+      "text": "Thank you for sharing this amasing day with us! In case of any question:\n* Szilvi: 06-30-830-86-16\n* Viktor: 06-20-231-52-80\n\nE-mail: [bedi.szilviag@gmail.com](mailto:bedi.szilvia@gmail.com)"
+    }
+  ]
+}

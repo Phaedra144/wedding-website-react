@@ -28,5 +28,7 @@ yarn.lock
 # images
 /public/images
 
-# content
-/src/customize
+# firebase
+.firebase/
+.firebaserc
+firebase.json
