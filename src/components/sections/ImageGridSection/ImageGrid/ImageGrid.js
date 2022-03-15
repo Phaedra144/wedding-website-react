@@ -5,8 +5,8 @@ import 'react-medium-image-zoom/dist/styles.css'
 
 const ImageGrid = ({ images = [] }) => (
   <div className={styles.gridWrapper}>
-    {images.map((image) => (
-    <Zoom>
+    {images.map((image, index) => (
+    <Zoom key={index}>
       <img
         src={image.src}
         key={image.src}

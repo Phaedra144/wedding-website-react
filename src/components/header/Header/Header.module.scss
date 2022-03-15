@@ -134,7 +134,6 @@ $z-index-content: $z-index-image-max + 1;
   transform: scale(1);
   transition: all 700ms;
 }
-
 .fadeExit {
   opacity: 1;
   transform: scale(1);
@@ -158,6 +157,15 @@ $z-index-content: $z-index-image-max + 1;
 
     .info {
       font-size: 24px;
+    }
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .imageSlider {
+    :first-child {
+      background-size: auto;
+      background-position: 76% 100%;
     }
   }
 }

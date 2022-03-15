@@ -40,6 +40,7 @@
 .sectionText {
   line-height: 1.5em;
   font-size: $font-size-large;
+  padding: 10px;
 
   h2,
   h3 {
@@ -71,5 +72,11 @@
 
   .section.viewport {
     height: $viewport-height;
+  }
+}
+
+@media (max-width: $breakpoint-sm) {
+  .sectionText img {
+    width: 100%;
   }
 }

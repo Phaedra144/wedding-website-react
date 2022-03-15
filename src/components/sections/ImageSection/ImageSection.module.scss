@@ -49,6 +49,9 @@
       text-decoration: underline;
     }
   }
+  p {
+    padding: 0 10px;
+  }
 }
 
 @media (min-width: $breakpoint-lg) {

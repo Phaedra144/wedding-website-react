@@ -16,11 +16,12 @@
   margin-left: 7px;
 }
 
-iframe {
-  height: 500px;
-}
 
 @media (min-width: $breakpoint-lg) {
+  iframe {
+    height: 500px;
+  }
+  
   .wrapper {
     max-width: 850px;
   }
